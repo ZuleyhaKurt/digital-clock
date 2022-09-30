@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans ", sas-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgba(0, 0, 255, 0.300); 
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100vh;
+}
+#date{
+    background-color:rgba(0, 0, 255, 0.192);
+    color:black;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    
+    
+}
+#clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+}
+.unit{
+    background:linear-gradient(red,pink);
+    border-radius:15px;
+    box-shadow: 0 2px 2px #444;
+    color: #fff;
+    font-size: 5em;
+    height: 100%;
+     text-align: center;
+    text-shadow: 0 2px 2px #666;
+    width: 60%;
+    padding: 1rem;
+}
+.ampm{
+    font-size: 3rem;
+    color: #fff;
+    border: 1ps solid black;
+    width: 5%;
+    height: 5%;
+}
+@media screen and (min-width:445px) and (max-width:785px){
+    .unit{
+        width: 100%;
+    }
+}
+@media screen and (max-width:445px){
+    .unit{
+        width: 100%;
+        font-size:3em;
+    }
+}
+
+

@@ -44,10 +44,12 @@ body{
     color: #fff;
     font-size: 5em;
     height: 100%;
-     text-align: center;
     text-shadow: 0 2px 2px #666;
     width: 60%;
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .ampm{
     font-size: 3rem;
